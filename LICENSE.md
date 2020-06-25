@@ -1,6 +1,6 @@
 MIT License
 
-All contents of this repository, excepting those of the PyVMF-for-AutoSky submodule which contains its own license, Copyright (c) 2020 Patrick Preston
+All contents of this repository, excepting the PyVMF-for-AutoSky submodule which contains its own license, Copyright (c) 2020 Patrick Preston
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
