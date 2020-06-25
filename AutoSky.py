@@ -1,9 +1,7 @@
 import os.path
 import json
-import PyVMF.PyVMF as PyVMF
+import PyVMF_for_AutoSky.src.PyVMF as PyVMF
 import builtinmodelreplace
-from PyVMF.exceptions import *
-from exceptions import *
 import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.messagebox as messagebox

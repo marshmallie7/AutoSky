@@ -1,0 +1,3 @@
+[submodule "PyVMF_for_AutoSky"]
+	path = PyVMF_for_AutoSky
+	url = https://github.com/Sweepertank/PyVMF-for-AutoSky.git
