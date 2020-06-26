@@ -1,4 +1,5 @@
 import os.path
+import sys
 import json
 import PyVMF_for_AutoSky.src.PyVMF as PyVMF
 import builtinmodelreplace
@@ -15,7 +16,9 @@ class AutoSky(ttk.Frame):
 	def __init__(self, *args, **kwargs):
 		self.parent = tk.Tk()
 		self.parent.title("AutoSky")
-		self.icon = tk.PhotoImage(file=os.path.join(os.path.dirname(os.path.realpath(__file__)),"resources","icon.png"))
+		self.basePath = os.path.dirname(os.path.abspath(__file__))
+		self.resourcePath = os.path.join(getattr(sys, '_MEIPASS', self.basePath),"resources")
+		self.icon = tk.PhotoImage(file=os.path.join(self.resourcePath,"icon.png"))
 		self.parent.iconphoto(True,self.icon)
 		self.parent.resizable(False,False)
 		self.parent.protocol("WM_DELETE_WINDOW",self.close)
@@ -425,7 +428,7 @@ class ModelReplaceMenu(tk.Toplevel):
 		self["width"] = 512
 		self.minsize(645,320)
 
-		self.customreplacementmarker = tk.PhotoImage(file=os.path.join(os.path.dirname(os.path.realpath(__file__)),"resources","customreplacementmarker.png"))
+		self.customreplacementmarker = tk.PhotoImage(file=os.path.join(self.parent.parent.parent.resourcePath,"customreplacementmarker.png"))
 
 		self.mainframe = ttk.Frame(self,padding=(8,8,8,8))
 		self.topframe = ttk.Frame(self.mainframe)
