@@ -23,6 +23,10 @@ Latest release: [AutoSky 1.0-beta.1](https://github.com/Sweepertank/AutoSky/rele
 
 * _(For Team Fortress 2 use specifically)_ - the AutoSky Prop Pack, a collection of 16x and 1/16x scale variants of various stock TF2 models, curated to enhance the convenience of AutoSky's model replacement feature. Every model in the pack is included in the default replacement index. Strongly recommended for TF2 mappers!
 
+## Compatibility
+
+Currently Windows only.
+
 ## Contributions
 
 [PyVMF](https://github.com/GorangeNinja/PyVMF) - a VMF parsing library by GorangeNinja
