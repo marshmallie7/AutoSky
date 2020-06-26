@@ -13,11 +13,11 @@ Configurable options include:
 
 * __Automatically copy fog settings from input VMF’s fog_controller to output skybox’s sky_camera -__ If enabled, AutoSky will make the output skybox’s fog match that of your base map, copying all fog settings from the first env_fog_controller it finds in your input VMF to the sky_camera within the skybox it outputs. (Note that the env_fog_controller does not need to be in the AutoSky visgroup for AutoSky to recognize it.)
 
-_*AutoSky has been mainly developed and tested for use with Team Fortress 2, so you may encounter issues with newer VMF formats. Please report any issues you find TF2 or otherwise here._
+*AutoSky has been mainly developed and tested for use with Team Fortress 2, so you may encounter issues with newer VMF formats. Please report any issues you find TF2 or otherwise [here](https://github.com/Sweepertank/AutoSky/issues).
 
 ## Download
 
-Latest release: AutoSky 1.0-beta1
+Latest release: [AutoSky 1.0-beta.1](https://github.com/Sweepertank/AutoSky/releases/tag/v1.0-beta.1)
 
 ## Optional Add-ons
 
