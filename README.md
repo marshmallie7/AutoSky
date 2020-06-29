@@ -3,7 +3,7 @@
 ## Features
 
 * Automatically generates 3D skyboxes for any Source Engine level*! Simply do all your skybox detailing in full scale around the main map, add said detailing to a visgroup named exactly “AutoSky” (no quotes), and let AutoSky take care of the rest!
-* If configured to its maximum capabilities, AutoSky enables you to do all your skybox design at full scale without ever having to directly modify the 3D skybox yourself; see the in-depth guide for optimal usage on TF2Maps.net.
+* If configured to its maximum capabilities, AutoSky enables you to do all your skybox design at full scale without ever having to directly modify the 3D skybox yourself; see the in-depth guide for optimal usage [on TF2Maps.net](https://tf2maps.net/threads/resource-guide-streamlining-your-3d-skybox-design-management-workflow-with-autosky.41988).
 
 Configurable options include:
 
@@ -21,7 +21,7 @@ Latest release: [AutoSky 1.0-beta.1](https://github.com/Sweepertank/AutoSky/rele
 
 ## Optional Add-ons
 
-* _(For Team Fortress 2 use specifically)_ - the AutoSky Prop Pack, a collection of 16x and 1/16x scale variants of various stock TF2 models, curated to enhance the convenience of AutoSky's model replacement feature. Every model in the pack is included in the default replacement index. Strongly recommended for TF2 mappers!
+* _(For Team Fortress 2 use specifically)_ - the [AutoSky Prop Pack](https://tf2maps.net/threads/autosky-prop-pack.41989/), a collection of 16x and 1/16x scale variants of various stock TF2 models, curated to enhance the convenience of AutoSky's model replacement feature. Every model in the pack is included in the default replacement index. Strongly recommended for TF2 mappers!
 
 ## Compatibility
 
