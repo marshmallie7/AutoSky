@@ -1,5 +1,16 @@
 # AutoSky ⁠- A 3D skybox automation tool for Source Engine levels
 
+<p align="center">
+	<img
+		src="https://i.imgur.com/osb0YWY.png"
+	/>
+</p>
+<p align="center">
+	<img
+		src="https://i.imgur.com/ectYPx0.png"
+	/>
+</p>
+
 ## Features
 
 * Automatically generates 3D skyboxes for any Source Engine level*! Simply do all your skybox detailing in full scale around the main map, add said detailing to a visgroup named exactly “AutoSky” (no quotes), and let AutoSky take care of the rest!
